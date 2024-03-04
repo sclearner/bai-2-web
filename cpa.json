@@ -1,0 +1,37 @@
+[
+    {
+        "semester": "20211",
+        "cpa": 4,
+        "gpa": 4,
+        "done": 13,
+        "fail": 0
+    },
+    {
+        "semester": "20212",
+        "cpa": 4,
+        "gpa": 4,
+        "done": 30,
+        "fail": 0
+    },
+    {
+        "semester": "20221",
+        "cpa": 3.96,
+        "gpa": 3.9,
+        "done": 55,
+        "fail": 0
+    },
+    {
+        "semester": "20222",
+        "cpa": 3.88,
+        "gpa": 3.61,
+        "done": 73,
+        "fail": 0
+    },
+    {
+        "semester": "20231",
+        "cpa": 3.9,
+        "gpa": 4,
+        "done": 93,
+        "fail": 0
+    }
+]

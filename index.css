@@ -1,0 +1,133 @@
+* {
+    font-family: sans-serif;
+}
+
+p {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+main {
+    display: flex;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0px 10px;
+}
+
+.box {
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.content-pad {
+    padding: 0px 10px;
+}
+
+#avatar-cover {
+    display: inline-block;
+    position: relative;
+}
+
+#background-container {
+   display: block;
+   border-radius: 20px 20px 0px 0px;
+   width: 400px;
+   height: 250px;
+   margin-bottom: 75px;
+   border: 1px solid snow;
+   overflow: hidden;
+}
+
+#background {
+    display: block;
+    position: absolute;
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#background:hover {
+    width: 120%;
+    left: -10%;
+}
+
+
+#avatar-container {
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: white;
+    border: 10px solid snow;
+    overflow: hidden;
+}
+
+#avatar {
+    display: block;
+    width: 110%;
+    transform: translate(-4%, -10%);
+    height: auto;
+    position: absolute;
+    bottom: 30;
+}
+
+#status {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#right {
+    flex: 60%;
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+.personal-container {
+    display: flex;
+}
+
+.personal-group {
+    flex: 1;
+}
+
+.mg-left-10 {
+    margin-left: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    height: 500px;
+}
+
+.chart-container {
+    display: inline-block;
+    position: relative;
+    flex: 50%;
+    min-width: 400px;
+    height: auto;
+    width: 50vw;
+    margin: 10px 50px;
+    align-items: center;
+    overflow: visible;
+}
+
+.chart-container * {
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+}
